@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+    <section class="item">
+        <section >
+            <div>
+                <h2>Welcome to Guessing Game !!</h2>
+            </div>
+            <div>
+                <p>
+                    We have chosen a random number. Guess the number. Take upto 10 guesses.
+                </p>
+            </div>
+        </section>
+        <section >
+            <div class="form">
+                <label>Enter your Guess: </label>
+                <input type="text" class="userValue" required/>
+                <input type="submit" class="userButton" />
+            </div>
+        </section>
+        <section id="result" >
+           <p id="status"></p>
+           <p id="previousGuess"></p>
+           <p id="hiOrLow"></p> 
+        </section>
+    </section>
+    </body>
+</html>
